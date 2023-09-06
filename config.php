@@ -1,9 +1,9 @@
 <?php
 	define('INCLUDE_PATH','http://localhost/forplug/');
-	define('HOST','localhost');
-	define('USER','root');
+	define('HOST','');
+	define('USER','');
 	define('PASS','');
-	define('DB','forplug');
+	define('DB','');
 
 	$autoload = function($class){
 		include('classes/'.$class.'.php');
